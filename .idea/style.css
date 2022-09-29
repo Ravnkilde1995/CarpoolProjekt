@@ -34,3 +34,14 @@ img {
   border: 1px solid ;
   color: black  ;
 }
+
+.card{
+  margin-bottom: 10px;
+}
+
+.card:hover{
+  background-color: #151922;
+  color: whitesmoke;
+  cursor: pointer;
+  transform: scale(1.03);
+}
