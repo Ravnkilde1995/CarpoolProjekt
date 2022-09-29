@@ -15,21 +15,19 @@ body {
 }
 
 img {
-  border-top-left-radius: 30px;
-  border-bottom-left-radius: 30px;
+  border-top-left-radius: px;
+  border-bottom-left-radius: px;
 }
 
-.btn1{
-  border: none ;
+#btn1{
+  border: 1px solid ;
   outline: none;
-  height: 50px;
-  width: 100%;
   background: black;
   color: white;
   border-radius: 4px;
   font-weight:bold ;
 }
-.btn1:hover{
+#btn1:hover{
   background: white;
   border: 1px solid ;
   color: black  ;
@@ -45,3 +43,18 @@ img {
   cursor: pointer;
   transform: scale(1.03);
 }
+
+.container-choose{
+  margin-top: 25px;
+  margin-left: 310px;
+  margin-right: 310px;
+}
+.img-fluid{
+  margin-top: 75px;
+}
+a {
+  text-decoration: none;
+}
+
+
+

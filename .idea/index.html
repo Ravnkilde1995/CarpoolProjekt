@@ -21,25 +21,29 @@
         <h4>Sign into your account</h4>
 
 
-        <form>
+        <form action="choose.html" method="post">
           <div class="form-row">
             <div class="col-lg-7">
-              <input type="email" placeholder="Email-Adress" class="form-control my-3 p-4">
+              <input type="text" placeholder="Email-Address" class="form-control my-3 p-4" required/>
             </div>
           </div>
           <div class="form-row">
             <div class="col-lg-7">
-              <input type="password" placeholder="********" class="form-control my-3 p-4">
+              <input type="text" placeholder="Password" class="form-control my-3 p-4" required/>
             </div>
           </div>
           <div class="form-row">
             <div class="col-lg-7">
-              <button type="button" class="btn1 mt-3 mb-5"><a href="choose.html">Login</a></button>
-
+              <input type="checkbox" /> Keep me Signed in
             </div>
           </div>
-          <a href="#">Forgot your password?</a>
-          <p>Don't have an account? <a href="#">Register here</a></p>
+          <div class="form-row">
+            <div class="col-lg-7">
+              <input type="submit" value="Login" id="btn1" class="form-control my-3 p-4">
+            </div>
+          </div>
+          <a href="forgotpassword.html">Forgot your password?</a>
+          <p>Not a member? <a href="create.html">Register here</a></p>
         </form>
       </div>
     </div>
